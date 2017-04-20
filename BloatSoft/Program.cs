@@ -39,6 +39,7 @@ namespace BloatSoft
             Thread.Sleep(300);
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
+            MessageBox.Show("lmao");
             MessageBox.Show("fem");
             MessageBox.Show("hey"); 
 
