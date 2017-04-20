@@ -25,6 +25,14 @@ namespace BloatSoft
         const int SW_HIDE = 0;
         const int SW_SHOW = 5;
 
+        //XD
+
+
+
+
+
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("Installing Windows updates...");
@@ -32,6 +40,8 @@ namespace BloatSoft
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
             MessageBox.Show("fem");
+            
+
         }
     }
 }
