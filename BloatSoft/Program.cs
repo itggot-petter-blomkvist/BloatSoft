@@ -25,13 +25,6 @@ namespace BloatSoft
         const int SW_HIDE = 0;
         const int SW_SHOW = 5;
 
-        //XD
-
-
-
-
-
-
 
         static void Main(string[] args)
         {
