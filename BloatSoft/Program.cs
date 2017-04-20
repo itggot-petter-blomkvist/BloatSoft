@@ -11,6 +11,8 @@ namespace BloatSoft
 {
     class Program
     {
+        //Future :)
+
         [DllImport("kernel32.dll")]
         static extern IntPtr GetConsoleWindow();
 
