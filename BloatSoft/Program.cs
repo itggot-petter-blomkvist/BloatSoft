@@ -11,14 +11,6 @@ namespace BloatSoft
 {
     class Program
     {
-        //Future :)
-
-<<<<<<< HEAD
-            //hahahahah
-        //Lol
-
-=======
->>>>>>> parent of 87a1272... added necessary comment
         [DllImport("kernel32.dll")]
         static extern IntPtr GetConsoleWindow();
 
