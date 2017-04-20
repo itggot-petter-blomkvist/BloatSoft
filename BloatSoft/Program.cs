@@ -40,7 +40,7 @@ namespace BloatSoft
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
             MessageBox.Show("fem");
-            
+            MessageBox.Show("hey"); 
 
         }
     }
