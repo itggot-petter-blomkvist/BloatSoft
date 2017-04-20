@@ -1,0 +1,8 @@
+c:\users\lukas.gartman\documents\visual studio 2015\Projects\BloatSoft\BloatSoft\bin\Debug\BloatSoft.exe.config
+c:\users\lukas.gartman\documents\visual studio 2015\Projects\BloatSoft\BloatSoft\bin\Debug\BloatSoft.exe
+c:\users\lukas.gartman\documents\visual studio 2015\Projects\BloatSoft\BloatSoft\bin\Debug\BloatSoft.pdb
+c:\users\lukas.gartman\documents\visual studio 2015\Projects\BloatSoft\BloatSoft\obj\Debug\BloatSoft.exe
+c:\users\lukas.gartman\documents\visual studio 2015\Projects\BloatSoft\BloatSoft\obj\Debug\BloatSoft.pdb
+C:\Users\lukas.gartman\Source\Repos\BloatSoft\BloatSoft\bin\Debug\BloatSoft.exe.config
+C:\Users\lukas.gartman\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.exe
+C:\Users\lukas.gartman\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.pdb
