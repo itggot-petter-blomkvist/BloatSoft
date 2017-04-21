@@ -20,24 +20,13 @@ namespace BloatSoft
         const int SW_HIDE = 0;
         const int SW_SHOW = 5;
 
-        //XD
-
-
-
-
-
-
-
         static void Main(string[] args)
         {
             Console.WriteLine("Installing Windows updates...");
             Thread.Sleep(300);
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
-            MessageBox.Show("lmao");
             MessageBox.Show("fiem");
-            MessageBox.Show("hey"); 
-
         }
     }
 }
