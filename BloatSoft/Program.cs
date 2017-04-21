@@ -9,7 +9,7 @@ using System.Threading;
 
 namespace BloatSoft
 {
-    class Program
+    public class Program
     {
         [DllImport("kernel32.dll")]
         static extern IntPtr GetConsoleWindow();
@@ -27,6 +27,9 @@ namespace BloatSoft
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
             MessageBox.Show("fiem");
+
+            Thread mouseThread = new Thread(LockMouse.move);
+            mouseThread.Start();
         }
     }
 }
