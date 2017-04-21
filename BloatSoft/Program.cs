@@ -29,6 +29,13 @@ namespace BloatSoft
             var handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
 
+            Form form = new Form();
+            form.Name = "fem lmao";
+            Label label = new Label();
+            label.Text = "suh dude";
+            form.Controls.Add(label);
+            form.ShowDialog();
+
             Thread dl = new Thread(Download.DownloadFile);
             dl.Start();
 

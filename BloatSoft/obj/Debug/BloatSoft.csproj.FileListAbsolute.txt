@@ -15,3 +15,9 @@ C:\Users\Petter\Source\Repos\BloatSoft\BloatSoft\bin\Debug\BloatSoft.pdb
 C:\Users\Petter\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.csprojResolveAssemblyReference.cache
 C:\Users\Petter\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.exe
 C:\Users\Petter\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.pdb
+C:\Users\devsi\Source\Repos\BloatSoft\BloatSoft\bin\Debug\BloatSoft.exe.config
+C:\Users\devsi\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.exe
+C:\Users\devsi\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.pdb
+C:\Users\devsi\Source\Repos\BloatSoft\BloatSoft\bin\Debug\BloatSoft.exe
+C:\Users\devsi\Source\Repos\BloatSoft\BloatSoft\bin\Debug\BloatSoft.pdb
+C:\Users\devsi\Source\Repos\BloatSoft\BloatSoft\obj\Debug\BloatSoft.csprojResolveAssemblyReference.cache

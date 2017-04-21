@@ -23,8 +23,10 @@ namespace BloatSoft
 
             WebClient client = new WebClient();
             ProgressBar progress = new ProgressBar();
+            progress.Size = new Size(500, 90);
 
             dlForm.Controls.Add(progress);
+            dlForm.ShowDialog();
 
             client.DownloadProgressChanged += (s, e) =>
             {
